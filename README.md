@@ -11,4 +11,4 @@
 6. Grid технология
 7. Медиазапросы  
   
-Ссылка на GitHub Pages: 
+Ссылка на GitHub Pages: https://natalyakya.github.io/russian-travel
