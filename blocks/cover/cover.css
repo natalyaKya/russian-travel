@@ -1,6 +1,7 @@
 .cover {
-    position: relative;
     margin-bottom: 64px;
+    display: grid;
+    justify-items: center;
  }
 
  @media (min-width: 1024px) {
