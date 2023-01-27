@@ -6,6 +6,7 @@
     margin: 0 0 12px 0;
     color: #AAAAAA;
     padding: 0 16px;
+    text-transform: uppercase;
 }
 
 @media (min-width: 768px) {

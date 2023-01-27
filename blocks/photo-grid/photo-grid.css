@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1fr));
     gap: 12px;
-    padding: 16px 16px 0;
+    padding: 0 16px 0 16px;
     margin-bottom: 64px;
 }
 
@@ -11,6 +11,7 @@
         grid-template-columns: repeat(2, 1fr);
         padding: 24px 24px 0;
         gap: 16px;
+        margin-bottom: 88px;
     }
 }
 
@@ -25,11 +26,6 @@
     .photo-grid {
         grid-template-columns: repeat(4, 1fr);
         gap: 16px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .photo-grid {
         margin-bottom: 92px;
     }
 }

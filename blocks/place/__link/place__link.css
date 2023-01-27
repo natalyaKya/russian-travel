@@ -3,11 +3,11 @@
     font-size: 18px;
     line-height: 22px;
     padding: 0 16px; 
+    transition: 0.5s;
 }
 
 .place__link:hover {
     opacity: 0.8;
-    transition: 0.5s;
 }
 
 @media (min-width: 768px) {

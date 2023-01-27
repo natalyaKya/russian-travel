@@ -1,14 +1,13 @@
 .place {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1fr));
-    margin: 0;
-    margin-bottom: 66px;
+    margin: 0 0 50px;
     gap: 32px;
 }
 
 @media (min-width: 768px) {
     .place {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 340px 1fr;
         grid-template-rows: auto auto;
         column-gap: 28px;
         row-gap: 48px;
@@ -18,12 +17,14 @@
 
 @media (min-width: 1024px) {
     .place {
-        margin-bottom: 92px;
+        grid-template-columns: 440px 1fr;
+        margin-bottom: 80px;
     }
 }
 
 @media (min-width: 1280px) {
     .place {
+        grid-template-columns: 460px 1fr;
         column-gap: 40px;
         row-gap: 26px;
     }

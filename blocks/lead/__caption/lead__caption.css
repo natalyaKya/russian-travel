@@ -6,6 +6,12 @@
     margin: 8px 0 0 0;
 }
 
+@media (min-width: 768px) {
+    .lead__caption {
+        text-indent: 24px;
+    }
+}
+
 @media (min-width: 1024px) {
     .lead__caption {
         text-indent: 48px;

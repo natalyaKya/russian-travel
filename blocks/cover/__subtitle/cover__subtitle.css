@@ -3,15 +3,15 @@
     line-height: 16px;
     font-weight: 400;
     text-align: center;
-    margin: 0;
-    width: 288px;
-    
+    margin: 0 0 33px;
+    min-width: 288px;
+    z-index: 3;    
 }
 
 @media (min-width: 768px) {
     .cover__subtitle {
         font-size: 18px;
         line-height: 22px;
-        width: 360px;
+        min-width: 360px;
     }
 }

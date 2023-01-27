@@ -1,7 +1,12 @@
 .cover {
     margin-bottom: 64px;
-    display: grid;
-    justify-items: center;
+    width: 100%;
+ }
+
+ @media (min-width: 1024px) {
+   .cover {
+      margin-bottom: 88px;
+   }
  }
 
  @media (min-width: 1024px) {

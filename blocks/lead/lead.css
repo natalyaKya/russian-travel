@@ -3,8 +3,14 @@
     margin-bottom: 64px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
     .lead {
-        margin-bottom: 114px;
+        margin-bottom: 88px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lead {
+        margin-bottom: 92px;
     }
 }
