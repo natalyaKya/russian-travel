@@ -5,6 +5,10 @@
     gap: 32px;
 }
 
+.place:last-child {
+    margin: 0;
+}
+
 @media (min-width: 768px) {
     .place {
         grid-template-columns: 340px 1fr;
@@ -26,6 +30,5 @@
     .place {
         grid-template-columns: 460px 1fr;
         column-gap: 40px;
-        row-gap: 26px;
     }
 }

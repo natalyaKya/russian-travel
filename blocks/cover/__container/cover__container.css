@@ -6,6 +6,7 @@
     text-align: center;
     background: url("../../../images/cover-trains.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
     min-height: 200px;
     width: 100%;
     text-decoration: none;
@@ -17,7 +18,7 @@
 .cover__container::before {
     content: " ";
     position: absolute;
-    background-color: black;
+    background-color: #2A2C2F;
     opacity: 0.3;
     top: 0;
     left: 0;

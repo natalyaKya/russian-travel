@@ -3,14 +3,21 @@
     width: 100%;
  }
 
+ @media (min-width: 768px) {
+   .cover {
+      margin-bottom: 90px;
+   }
+ }
+
  @media (min-width: 1024px) {
    .cover {
       margin-bottom: 88px;
    }
  }
 
- @media (min-width: 1024px) {
+ @media (min-width: 1280px) {
     .cover {
-        margin-bottom: 92px;
+        margin: 0 auto 92px auto;
+        max-width: 1184px;
      }
 }

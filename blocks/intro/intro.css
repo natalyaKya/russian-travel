@@ -1,4 +1,6 @@
 .intro {
+    display: flex;
+    flex-direction: column;
     padding: 0 16px 0 16px;
     margin-bottom: 64px;
 }
@@ -11,9 +13,7 @@
 
 @media (min-width: 1024px) {
     .intro {
-        display: flex;
         margin-right: auto;
-        flex-direction: column;
         padding: 0 48px 0 48px;
         margin-bottom: 92px;
     } 
@@ -21,6 +21,6 @@
 
 @media (min-width: 1280px) {
     .intro {
-        padding: 0 128px 0 128px;
+        padding: 0 148px 0 148px;
     } 
 }

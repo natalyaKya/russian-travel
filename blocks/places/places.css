@@ -1,5 +1,6 @@
 .places {
     padding: 0;
+    margin-bottom: 66px;
 }
 
 @media (min-width: 768px) {
