@@ -16,3 +16,8 @@
         padding: 28px 48px 0;
     }
 }
+@media (min-width: 1024px) {
+    .header {
+        margin-bottom: 56px;
+    }
+}
